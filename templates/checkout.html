@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Checkout</h1>
+{% for item in cart_list %}
+        <div>{{ item }}</div>
+{% endfor %}
+{{ grand_total }}
+</body>
+</html>

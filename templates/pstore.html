@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Items In the Store</h1>
+    {% for item in items %}
+        <p>{{ item.name }}: {{ item.description }} ${{ item.price }}</p>
+    {% endfor %}
+</body>
+</html>
